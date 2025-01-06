@@ -40,6 +40,11 @@ https://github.com/aroum/Watchman-layouts
 Редачишь файлик с нужными кодами и их actions забираешь архив с прошивкой через пару минут из вкладки Actions
 ![alt text](https://i.imgur.com/iJjqwZi.png)
 ![alt text](https://i.imgur.com/yTVCzIx.png)
+
+
+для проводного варианта:
+контроллеры Pro Micro ATmega32U4- https://sl.aliexpress.ru/p?key=WmPYGmC
+инструкция - https://github.com/joric/jorne/wiki
 ![alt text](https://i.imgur.com/9I6MyoF.png)
 
 ![alt text](https://i.imgur.com/oWzV0RG.png)
