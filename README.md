@@ -49,7 +49,9 @@ https://github.com/aroum/Watchman-layouts
 
 контроллеры Pro Micro ATmega32U4- https://sl.aliexpress.ru/p?key=WmPYGmC
 
-инструкция - https://github.com/joric/jorne/wiki
+инструкция - https://likipiki.gitlab.io/posts/jornebuild/
+
+прошивка - https://likipiki.gitlab.io/posts/qmkbuild/
 
 
 
