@@ -42,9 +42,11 @@ https://github.com/aroum/Watchman-layouts
 ![alt text](https://i.imgur.com/yTVCzIx.png)
 ![alt text](https://i.imgur.com/9I6MyoF.png)
 ![alt text](https://i.imgur.com/oWzV0RG.png)
+
 -
 
 для проводного варианта:
+
 контроллеры Pro Micro ATmega32U4- https://sl.aliexpress.ru/p?key=WmPYGmC
 
 инструкция - https://github.com/joric/jorne/wiki
