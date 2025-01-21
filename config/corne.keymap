@@ -15,8 +15,59 @@
 #define RSE 3
 #define ADJ 4
 
-&lt { quick_tap_ms = <200>; };
-&mt { quick_tap_ms = <200>; };
+&lt {
+    quick_tap_ms = <120>;
+};
+
+&mt {
+    quick_tap_ms = <120>;
+};
+
+/ {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <LWR RSE>;
+            then-layer = <FUN>;
+        };
+    };
+};
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <30>;
+            key-positions = <LH1 LH0>;
+            bindings = <&mo ADJ>;
+        };
+
+        combo_dash {
+            timeout-ms = <20>; // Adjust if needed
+            key-positions = <RM1 RM2>; // J + K
+            bindings = <&kp MINUS>;
+        };
+
+        combo_question {
+            timeout-ms = <20>; // Adjust if needed
+            key-positions = <RM0 RM1>; // H + J
+            bindings = <&kp QMARK>;
+        };
+    };
+};
+
+/ {
+    macros {
+        arrow_macro: arrow_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;  // Small delay between characters
+            bindings = <&kp EQUAL &kp GT>;  // Types "=" then ">"
+        };
+    };
+};
+
 
 
 / {
