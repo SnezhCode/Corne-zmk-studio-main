@@ -133,10 +133,10 @@
 //                               '--------+---------+----------'       '--------+--------+---------'
 
                         bindings = <
-                        &trans      &kp APOS    &kp LT      &kp GT       &dbl_quot  &kp DOT     &kp AMPERSAND &arrow_macro &kp LBKT    &kp RBKT    &kp PERCENT &trans
-                        &trans      &kp EXCL    &kp MINUS   &kp PLUS     &kp EQUAL  &kp HASH    &kp PIPE      &kp COLON    &kp LPAR    &kp RPAR    &kp QMARK   &trans
-                        &trans      &kp CARET   &kp SLASH   &kp ASTRK    &kp BSLH   &kp GRAVE   &kp TILDE     &kp DOLLAR   &kp LBRC    &kp RBRC    &kp AT_SIGN &trans
-                                                                &trans      &trans      &trans      &trans      &trans         &trans
+                        &kp ESC     &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P       &mt LGUI LBKT
+                        &kp TAB     &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
+                        &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &mt LALT RBKT
+                                                                &kp LCTRL   &mo LWR  &kp SPACE &mt RSHIFT ENTER &lt RSE BSPC &kp LALT
             >;
         };
   
